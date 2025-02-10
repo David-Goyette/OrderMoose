@@ -1,0 +1,74 @@
+{
+    "manifest_version": 3,
+    "name": "OrderMoose",
+    "version": "1.0.1",
+    "description": "Chrome extension for automating tasks for WV Order Fulfillment",
+    "permissions": ["storage"],
+    "web_accessible_resources": [
+        {
+            "resources": ["denyReasons.json", "orderMooseIcon.png" ],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "icons": {
+        "16": "orderMooseIcon.png",
+        "48": "orderMooseIcon.png",
+        "128": "orderMooseIcon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://app.hopescholarshipwv.com/esa/esa_admin/esa_account_line_items/*"],
+            "js": ["theopayOrder.js"],
+            "permissions": ["activeTab"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.amazon.com/gp/buy/*"],
+            "js": ["amazonCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://business.walmart.com/checkout/review-order*"],
+            "js": ["walmartCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.rainbowresource.com/checkout*"],
+            "js": ["rainbowResourceCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.christianbook.com/apps/checkout/*"],
+            "js": ["christianBookCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at":"document_end"
+        },
+        {
+            "matches": ["https://store.goodandbeautiful.com/checkout*"],
+            "js": ["goodAndBeautifulCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at":"document_end"
+        },
+        {
+            "matches": ["https://www.staplesadvantage.com/*"],
+            "js": ["staplesAdvantageCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at":"document_end"
+        },
+        {
+            "matches": ["https://www.officedepot.com/cart/checkout*", "https://www.officedepot.com/checkout/*"],
+            "js": ["officeDepotCheckout.js"],
+            "permissions": ["activeTab"],
+            "run_at":"document_end"
+        },
+        {
+            "matches": ["https://docs.google.com/forms/*"],
+            "js": ["creditTrackingForm.js"],
+            "permissions": ["activeTab"],
+            "run_at":"document_end"
+        }
+    ]
+}

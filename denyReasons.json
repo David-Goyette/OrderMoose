@@ -1,0 +1,43 @@
+[
+    {
+      "text": "Ineligible",
+      "familyNote": "This order contains an item (item name(s) here) that is not an allowable expense under the Hope Scholarship. Please refer to the Parent Handbook starting at page 15 for item eligibility questions. Please resubmit order without ineligible expense(s). If you would like to submit a qualifying expense form to the Hope Scholarship, here is the link to do so (Please only submit ONE form per item): https://www.hopescholarshipwv.com/Portals/HopeScholarship/content/Documents/Forms/ParentStudent/Qualifying%20Expense%20Request%20Form.pdf?ver=6zByLOz-xwoLYFVQwUANyw%3d%3d For any further questions or concerns, please reach out to the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Ineligible Expense"
+    },
+    {
+      "text": "Unavailable",
+      "familyNote": "(Insert item name) is currently out of stock or unavailable. Kindly resubmit your order, either omitting the item or adding a different. The replacement order will be processed as soon as possible. For further assistance, please contact the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Item/s Unavailable"
+    },
+    {
+      "text": "Price Increase",
+      "familyNote": "This order contains an item that has been priced at $__ more than when it was initially submitted. If this price increase is not a significant concern, kindly re-submit the order. For further assistance, please contact the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Price Increase"
+    },
+    {
+      "text": "Digital",
+      "familyNote": "This order includes a digital item. Unfortunately, digital items are currently unavailable for fulfillment. Please resubmit any non-digital products. For further inquiries, please contact the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Digital Product/s"
+    },
+    {
+      "text": "Scan Error",
+      "familyNote": "Your order has not been captured by Theopay due to an incorrect scan. Please resubmit the order by navigating to the cart and expanding any drop-downs that may list the items. For further assistance, please contact the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "admin_note": "Cart Scanning Error"
+    },
+    {
+      "text": "Wrong Age",
+      "familyNote": "This order includes an item that has been determined to be unsuitable for this student's age. If this is a concern and requires further clarification, please submit a qualifying expense form using the following link: https://hopescholarshipwv.com/Portals/HopeScholarship/content/Documents/Forms/ParentStudent/Qualifying%20Expense%20Request%20Form.pdf?ver=6zByLOz-xwoLYFVQwUANyw%3d%3d",
+      "adminNote": "Not Age Appropriate"
+    },
+    {
+      "text": "Discount",
+      "familyNote": "This order contains a coupon or discount code that is currently unavailable to our fulfillment team. If the price increase is not a concern, please resubmit the order without the codes applied. The order will be processed as soon as possible. For further inquiries, please contact the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Unavailable Coupon or Discount"
+    },
+    {
+      "text": "Used/Renewed",
+      "familyNote": "This order contains an item (item name(s) here) that is not an allowable expense under the Hope Scholarship because we cannot guarantee the quality of used, refurbished, or restored items. Please refer to the Parent Handbook starting at page 15 for item eligibility questions. Please resubmit order without ineligible expense(s). If you would like to submit a qualifying expense form to the Hope Scholarship, here is the link to do so (Please only submit ONE form per item): https://www.hopescholarshipwv.com/Portals/HopeScholarship/content/Documents/Forms/ParentStudent/Qualifying%20Expense%20Request%20Form.pdf?ver=6zByLOz-xwoLYFVQwUANyw%3d%3d For any further questions or concerns, please reach out to the Hope Engagement Center at (681) 999-4673 or via email at help@hopescholarshipwv.com.",
+      "adminNote": "Ineligible (Used/Renewed)"
+    }
+]
+  
