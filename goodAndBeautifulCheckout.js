@@ -118,5 +118,5 @@ function copyOrderSlip(){
         output += ` Total - ${total.textContent} |`;
     }
     navigator.clipboard.writeText(output);
-    console.log('OrderMoose - copied shipping info');
+    console.log('OrderMoose - copied order slip');
 }
