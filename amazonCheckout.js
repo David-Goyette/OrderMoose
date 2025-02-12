@@ -122,5 +122,5 @@ function copyOrderSlip(){
         ' In the future, if quality or edition is important to you, when using the HOPE Scholarship please only place orders for new books, thank you.'
     }
     navigator.clipboard.writeText(output);
-    console.log('OrderMoose - copied shipping info');
+    console.log('OrderMoose - copied order slip');
 }
