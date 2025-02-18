@@ -6,67 +6,67 @@
     "permissions": ["storage"],
     "web_accessible_resources": [
         {
-            "resources": ["denyReasons.json", "orderMooseIcon.png" ],
+            "resources": ["resources/denyReasons.json", "resources/orderMooseIcon.png" ],
             "matches": ["<all_urls>"]
         }
     ],
     "icons": {
-        "16": "orderMooseIcon.png",
-        "48": "orderMooseIcon.png",
-        "128": "orderMooseIcon.png"
+        "16": "resources/orderMooseIcon.png",
+        "48": "resources/orderMooseIcon.png",
+        "128": "resources/orderMooseIcon.png"
     },
     "content_scripts": [
         {
             "matches": ["https://app.hopescholarshipwv.com/esa/esa_admin/esa_account_line_items/*"],
-            "js": ["theopayOrder.js"],
+            "js": ["contentScripts/theopayOrder.js"],
             "permissions": ["activeTab"],
             "run_at": "document_end"
         },
         {
             "matches": ["https://www.amazon.com/gp/buy/*"],
-            "js": ["amazonCheckout.js"],
+            "js": ["contentScripts/amazonCheckout.js"],
             "permissions": ["activeTab"],
             "run_at": "document_end"
         },
         {
             "matches": ["https://business.walmart.com/checkout/review-order*"],
-            "js": ["walmartCheckout.js"],
+            "js": ["contentScripts/walmartCheckout.js"],
             "permissions": ["activeTab"],
             "run_at": "document_end"
         },
         {
             "matches": ["https://www.rainbowresource.com/checkout*"],
-            "js": ["rainbowResourceCheckout.js"],
+            "js": ["contentScripts/rainbowResourceCheckout.js"],
             "permissions": ["activeTab"],
             "run_at": "document_end"
         },
         {
             "matches": ["https://www.christianbook.com/apps/checkout/*"],
-            "js": ["christianBookCheckout.js"],
+            "js": ["contentScripts/christianBookCheckout.js"],
             "permissions": ["activeTab"],
             "run_at":"document_end"
         },
         {
             "matches": ["https://store.goodandbeautiful.com/checkout*"],
-            "js": ["goodAndBeautifulCheckout.js"],
+            "js": ["contentScripts/goodAndBeautifulCheckout.js"],
             "permissions": ["activeTab"],
             "run_at":"document_end"
         },
         {
             "matches": ["https://www.staplesadvantage.com/*"],
-            "js": ["staplesAdvantageCheckout.js"],
+            "js": ["contentScripts/staplesAdvantageCheckout.js"],
             "permissions": ["activeTab"],
             "run_at":"document_end"
         },
         {
             "matches": ["https://www.officedepot.com/cart/checkout*", "https://www.officedepot.com/checkout/*"],
-            "js": ["officeDepotCheckout.js"],
+            "js": ["contentScripts/officeDepotCheckout.js"],
             "permissions": ["activeTab"],
             "run_at":"document_end"
         },
         {
             "matches": ["https://docs.google.com/forms/*"],
-            "js": ["creditTrackingForm.js"],
+            "js": ["contentScripts/creditTrackingForm.js"],
             "permissions": ["activeTab"],
             "run_at":"document_end"
         }
